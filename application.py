@@ -7,6 +7,7 @@ from flask import Flask
 from PIL import Image
 from download import download_all_weights
 from inpaint.predict import InpaintingModel
+from config import config
 
 UPLOAD_FOLDER = "static/uploads"
 ALLOWED_EXTENSIONS = set(["png", "jpg", "jpeg"])
@@ -75,4 +76,4 @@ def process_image():
 
 
 if __name__ == "__main__":
-    application.run(host="0.0.0.0", port=9000, use_reloader=True, threaded=False)
+    application.run(host="0.0.0.0", port=config.PORT, use_reloader=True, threaded=False)
