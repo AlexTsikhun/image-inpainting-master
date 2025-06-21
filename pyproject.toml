@@ -1,5 +1,5 @@
 [project]
-name = "gan-image-inpainting"
+name = "image-inpainting-master"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,5 +12,4 @@ dependencies = [
     "opencv-python>=4.11.0.86",
     "pillow>=11.2.1",
     "pydantic-settings>=2.9.1",
-    "tensorflow>=2.19.0",
 ]
