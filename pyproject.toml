@@ -1,5 +1,5 @@
 [project]
-name = "inpaint"
+name = "image-inpainting-master"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,7 +13,6 @@ dependencies = [
     "pillow>=11.2.1",
     "pydantic-settings>=2.9.1",
 ]
-dynamic = ["dependencies"]
 
 [tool.setuptools]
-packages = ["inpaint"]
+packages = ["image-inpainting-master"]
