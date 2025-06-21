@@ -13,3 +13,7 @@ dependencies = [
     "pillow>=11.2.1",
     "pydantic-settings>=2.9.1",
 ]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["inpaint"]
